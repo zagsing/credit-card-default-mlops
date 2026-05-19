@@ -198,3 +198,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# === Modeles ML serialises (utiliser DVC plutot que Git) ===
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.bin

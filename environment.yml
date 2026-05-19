@@ -4,16 +4,31 @@ channels:
 dependencies:
   - python=3.10
   - pip
+  # === Outils utilitaires ===
   - typer
   - loguru
   - tqdm
+  # === Notebook et visualisation ===
   - ipython
   - jupyterlab
   - matplotlib
   - notebook
+  - seaborn
+  # === Data science core ===
   - numpy
   - pandas
   - scikit-learn
+  # === Lecture de fichiers Excel ===
+  - openpyxl
+  - xlrd
+  # === Modeles ML avances ===
+  - xgboost<3.0
+  - lightgbm
+  # === Gestion du desequilibre de classes ===
+  - imbalanced-learn
+  # === Explicabilite ===
+  - shap
+  # === Qualite de code ===
   - ruff
   - pytest
   - pip:
